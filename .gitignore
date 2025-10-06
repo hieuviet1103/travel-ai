@@ -7,3 +7,4 @@ vite.config.ts.*
 package-lock.json
 .local/
 .replit
+.vercel
