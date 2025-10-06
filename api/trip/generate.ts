@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { z } from "zod";
-import { tripRequestSchema } from "../../shared/schema";
-import { generateTripItinerary } from "../../server/gemini";
+import { tripRequestSchema } from "../../shared/schema.js";
+import { generateTripItinerary } from "../../server/gemini.js";
 
 const methodSchema = z.enum(["POST"]);
 
